@@ -9,4 +9,4 @@ def getMd5(url):
     return m.hexdigest()
 
 if __name__ == "__main__":
-    print(getMd5("https://jobbole.com".encode('utf-8')))
+    print(getMd5("https://www.baidu.com".encode('utf-8')))
